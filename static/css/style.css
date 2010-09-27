@@ -1,7 +1,8 @@
 body {
     background:#373737; 
-    font-family: Palatino Linotype;
-    color: #FFFFFF;
+    font-family: Garamond;
+    font-size: 12pt;
+    color: #DDDDDD;
 }
 
 a:link, a:visited {
@@ -22,6 +23,11 @@ img.left {
     margin: 1em 1em 0 0;
 }
 
+img.right {
+    float: right;
+    margin: 1em 0 0 1em;
+}
+
 #navigation {
     font-family: Helvetica;
     font-size: 16pt;
@@ -40,4 +46,8 @@ img.left {
 
 #navigation #selected a {
     color: #FFFFFF;
+}
+
+.biography {
+    padding-bottom: 75px;
 }
