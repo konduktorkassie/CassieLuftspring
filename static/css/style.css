@@ -5,16 +5,20 @@ body {
     color: #DDDDDD;
 }
 
+.center {
+    text-align: center;
+}
+
 a:link, a:visited {
     text-decoration: none;
-    color: #757575; 
+    color: #AAAAAA; 
 }
 
 a:hover, a:active {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #656565;
 }
-
+ 
 img {
 }
 
@@ -48,6 +52,59 @@ img.right {
     color: #FFFFFF;
 }
 
+#navigation a:link, #navigation a:visited {
+    text-decoration: none;
+    color: #757575; 
+}
+
+#navigation a:hover, #navigation a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#navigation a:link, #navigation a:visited {
+    text-decoration: none;
+    color: #757575; 
+}
+
+#navigation a:hover, #navigation a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .biography {
     padding-bottom: 75px;
+}
+
+.services {
+    width: 540px;
+    background: #474747;
+    border: #222222 solid 1px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 1em;
+}
+
+#resume h3 {
+    border-bottom: #DDDDDD solid 1px;
+    text-align: right;
+    margin: 0 25px 25px 25px;
+    padding-bottom: 5px;
+}
+
+.section {
+    background: #474747;
+    border: #222222 solid 1px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.date {
+    margin-right: 9px;
+    text-align: right;
+}
+
+.info {
+    margin-left: 9px;
 }
