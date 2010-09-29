@@ -86,13 +86,6 @@ img.right {
     margin-top: 1em;
 }
 
-#resume h3 {
-    border-bottom: #DDDDDD solid 1px;
-    text-align: right;
-    margin: 0 25px 25px 25px;
-    padding-bottom: 5px;
-}
-
 .section {
     /*
     background: #474747;
@@ -101,6 +94,13 @@ img.right {
     padding-top: 25px;
     padding-bottom: 10px;
     margin-bottom: 25px;
+}
+
+.section h3 {
+    border-bottom: #DDDDDD solid 1px;
+    text-align: right;
+    margin: 0 25px 25px 25px;
+    padding-bottom: 5px;
 }
 
 .date {
