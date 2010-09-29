@@ -112,3 +112,14 @@ img.right {
     margin-left: 9px;
     margin-bottom: 15px;
 }
+
+.instructors {
+    border-spacing: 20px 0;
+}
+
+.instructors th {
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+}
+
