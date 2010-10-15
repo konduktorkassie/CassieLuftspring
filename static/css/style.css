@@ -76,6 +76,12 @@ img.right {
     padding-bottom: 75px;
 }
 
+.contact {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 120px;
+}
+
 .services {
     width: 540px;
     background: #474747;
