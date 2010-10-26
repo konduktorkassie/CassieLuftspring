@@ -18,7 +18,11 @@ a:hover, a:active {
     text-decoration: none;
     color: #656565;
 }
- 
+
+a.logo {
+    color: #373737; 
+}
+
 img {
 }
 
