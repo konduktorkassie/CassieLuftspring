@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Cassandra Luftspring - Home</title>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/grid.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container_12">
+      <a class="prefix_4 grid_6 logo" href="/"><img src="/static/images/logo.png" alt="" /></a>
+      <ul id="navigation" class="grid_3">
+        <li><a href="biography.html">BIOGRAPHY</a></li>
+        <li><a href="cv.html">CURRICULUM VITAE</a></li>
+        <li><a href="composition.html">COMPOSITION</a></li>
+        <li id="selected"><a href="media.html">MEDIA</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="grid_9">
+        <div class="section">
+          <h3>CONDUCTING VIDEOS</h3>
+          <div class="video-container">
+            <div class="grid_4 alpha video-left">
+              Cantabile Youth Singers of Silicon Valley<br />
+              Ensemble Choir<br />
+            </div>
+            <div class="grid_4 omega video-right">
+              <em>Vois Sur Ton Chemin</em> by Bruno Coulais<br />
+              December 6, 2015
+            </div>
+            <div class="video-player" id="vois-sur-ton-chemin"></div>
+          </div>
+          <div class="video-container">
+            <div class="grid_4 alpha video-left">
+              Cantabile Youth Singers of Silicon Valley<br />
+              Intermediate Choir<br />
+            </div>
+            <div class="grid_4 omega video-right">
+              <em>Walking in the Air</em> by Howard Blake<br />
+              December 6, 2015
+            </div>
+            <div class="video-player" id="walking-in-the-air"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-23000622-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+  </script>
+  <script type="text/javascript">
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubePlayerAPIReady() {
+  new YT.Player('vois-sur-ton-chemin', {
+    videoId: 'C0Tv5EEEzgY',
+    height: '374',
+    width: '665',
+    rel: '0',
+  });
+
+  new YT.Player('walking-in-the-air', {
+    videoId: 'C2pjq7vLKqY',
+    height: '374',
+    width: '665',
+    rel: '0',
+  });
+}
+  </script>
+</html>
