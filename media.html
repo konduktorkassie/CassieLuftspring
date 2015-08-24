@@ -41,6 +41,17 @@
             </div>
             <div class="video-player" id="walking-in-the-air"></div>
           </div>
+          <div class="video-container">
+            <div class="grid_4 alpha video-left">
+              Cantabile Youth Singers of Silicon Valley<br />
+              Ensemble Choir<br />
+            </div>
+            <div class="grid_4 omega video-right">
+              <em>Inflammatus et Accensus</em> by G.B. Pergolesi<br />
+              December 4, 2014
+            </div>
+            <div class="video-player" id="inflammatus"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -74,6 +85,13 @@ function onYouTubePlayerAPIReady() {
 
   new YT.Player('walking-in-the-air', {
     videoId: 'C2pjq7vLKqY',
+    height: '374',
+    width: '665',
+    rel: '0',
+  });
+
+  new YT.Player('inflammatus', {
+    videoId: '_B2_xiwzcfM',
     height: '374',
     width: '665',
     rel: '0',
