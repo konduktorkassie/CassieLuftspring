@@ -160,6 +160,10 @@ img.right {
   margin: 0 10px 50px 25px;
 }
 
+video {
+  margin-bottom: 50px;
+}
+
 .video-right {
   padding-left: 45px;
   text-align: right;
