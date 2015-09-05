@@ -28,12 +28,7 @@
               <em>Les &Eacute;toiles</em> by Mark Sirett<br />
               December 15, 2011
             </div>
-            <div class="grid_8 alpha omega video-player" id="etoiles">
-              <video width="665" height="374" controls>
-                <source src="static/video/lesetoiles.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            <div class="video-player" id="les-etoiles"></div>
           </div>
           <div class="video-container">
             <div class="grid_4 alpha video-left">
@@ -141,6 +136,16 @@ function onYouTubePlayerAPIReady() {
       showinfo: '0',
       rel: '0',
       start: '88'
+    }
+  });
+
+  new YT.Player('les-etoiles', {
+    videoId: 'DsGwHqgT3B0',
+    height: '374',
+    width: '665',
+    playerVars: {
+      showinfo: '0',
+      rel: '0',
     }
   });
 }
