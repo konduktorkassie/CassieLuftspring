@@ -123,14 +123,14 @@ img.right {
     margin-bottom: 15px;
 }
 
-.instructors {
-    border-spacing: 20px 0;
-}
-
 .instructors th {
     font-style: italic;
     font-weight: normal;
     text-align: right;
+}
+
+.instructors td {
+  padding-left: 20px;
 }
 
 #pdf-link {
